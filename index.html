@@ -33,14 +33,26 @@
                     colors: {
                         'gradient-start': '#FF8938',
                         'gradient-end': '#F00 ',
-                    }
+                    },container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
                 }
             }
         }
     </script>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope"> 
+
+    <div class="container">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero possimus culpa perspiciatis numquam doloribus voluptatibus molestiae, minima incidunt voluptas eligendi sapiente quaerat aut atque nulla inventore adipisci ducimus amet. Iure.
+    </div>
     <header class="container mx-auto">
         <div class="my-20">
 
@@ -73,7 +85,95 @@
 
         </div>
     </header>
-    <main>
+    <!-- main section  -->
+    <main class="container mx-auto">
+
+
+        <!-- features section starts -->
+
+
+
+        <section class="text-center my-24">
+            <h2 class="text-5xl font-bold mb-5">Our Featured Products</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, <br> by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+
+            <!-- features tea card container -->
+
+
+            <div class=" container mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+                <!-- first card -->
+
+                <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-md">
+                    <figure>
+                        <img src="/images/tea-1.png" alt="" />
+                    </figure>
+                    <div class="items-center text-center mt-5">
+                        <h2 class="text-xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+
+                <!--second card -->
+
+                <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-md">
+                    <figure>
+                        <img src="/images/tea-1.png" alt="" />
+                    </figure>
+                    <div class="items-center text-center mt-5">
+                        <h2 class="text-xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+
+                <!-- third card -->
+                <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-md">
+                    <figure>
+                        <img src="/images/tea-1.png" alt="" />
+                    </figure>
+                    <div class="items-center text-center mt-5">
+                        <h2 class="text-xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+
+                <!-- fourth card -->
+                <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-md">
+                    <figure>
+                        <img src="/images/tea-1.png" alt="" />
+                    </figure>
+                    <div class="items-center text-center mt-5">
+                        <h2 class="text-xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- news and event section -->
+
+        <section class="text-center my-24">
+
+            <h2 class="text-5xl font-bold mb-5">News & Events</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, <br> by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+
+            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <figure><img src="/images/news-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </section>
 
     </main>
 
